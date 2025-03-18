@@ -304,12 +304,12 @@ ul li a:hover{
         display: flex;
         padding: 10px;
         width: 300px;
-        margin-left: 60px; 
+        margin-left: 73px; 
     }
 
     .menu ul li {
         margin: 10px 0;
-        margin-left: 10px;
+        margin-left: 45px;
     }
 
     .search {
@@ -358,7 +358,7 @@ ul li a:hover{
     }
 
     .form h2 {
-        margin-left: 36px;
+        margin-left: 45px;
     }
     
     .form input,
