@@ -263,3 +263,99 @@ ul li a:hover{
 .icons ion-icon:hover{
     color: #ff7200;
 }
+
+@media screen and (max-width: 768px) {
+    .main {
+        height: auto;
+        background-size: cover;
+        padding-bottom: 50px;
+    }
+    
+    .navbar {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .icon {
+        width: 100%;
+        text-align: center;
+        float: none;
+    }
+
+    .menu {
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu ul {
+        /* flex-direction: column; */
+        display: flex;
+        padding: 10px;
+        width: 300px;
+       
+    }
+
+    .menu ul li {
+        margin: 10px 0;
+        margin-left: 10px;
+    }
+
+    .search {
+        width: 80%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .srch {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+    .content {
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .content h1 {
+        font-size: 36px;
+    }
+
+    .content .par {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .content .cn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .form {
+        width: 90%;
+        position: static;
+        transform: none;
+        margin: 20px auto;
+    }
+
+    .form input,
+    .btnn {
+        width: 100%;
+    }
+
+    .icons {
+        text-align: center;
+    }
+
+    .icons ion-icon {
+        font-size: 24px;
+        padding: 8px;
+    }
+}
+
+
+
